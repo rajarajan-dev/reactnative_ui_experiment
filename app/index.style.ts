@@ -1,3 +1,4 @@
+import Colors from "@/constants/Colors";
 import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
@@ -5,17 +6,21 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#F5FCFF",
+    backgroundColor: "#f5f5f5",
   },
-  welcome: {
-    fontSize: 20,
-    textAlign: "center",
-    margin: 10,
+  label: {
+    fontSize: 18,
+    marginBottom: 10,
   },
-  instructions: {
-    textAlign: "center",
-    color: "#333333",
-    marginBottom: 5,
+  picker: {
+    padding: 12,
+    borderRadius: 4,
+    backgroundColor: Colors.light.text,
+  },
+  result: {
+    marginTop: 20,
+    fontSize: 16,
+    fontWeight: "bold",
   },
 });
 
